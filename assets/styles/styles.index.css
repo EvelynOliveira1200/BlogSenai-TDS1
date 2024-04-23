@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedan:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Sedan:ital@0;1&display=swap');
+
+.pacifico-regular {
+    font-family: "Pacifico", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.sedan-regular {
+    font-family: "Sedan", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}  
+
+body {
+    font-family: "Pacifico",  serif;
+    background-color:  rgb(239, 227, 211);
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+}
