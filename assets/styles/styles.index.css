@@ -59,3 +59,36 @@ header {
     color: rgb(149, 108, 54);
     transform: scale(1.01);
 }
+
+#carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    background-color:rgb(99, 59, 24);
+}
+
+#carousel img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#main-new {
+    width: 70%;
+    background-color: rgba(137, 88, 31, 0.249);
+    margin: 20px auto;
+    padding: 20px;
+}
+
+#aside {
+    width: 28%;
+    background-color: rgba(173, 101, 19, 0.249);
+    margin: 20px;
+    padding: 20px;
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+}
